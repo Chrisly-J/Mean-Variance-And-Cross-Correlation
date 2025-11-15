@@ -97,12 +97,13 @@ plot2d3(1:length(r), r);
 
 ### Output Graph:
 
+<img width="755" height="732" alt="Screenshot 2025-11-15 132810" src="https://github.com/user-attachments/assets/f06f4aa0-0fb2-4995-9ac0-8f08c5855623" />
 
 ---
 
 ### Output:
 
-
+<img width="553" height="395" alt="Screenshot 2025-11-15 132819" src="https://github.com/user-attachments/assets/64ab8a4f-06a2-4673-a087-be9d277ea46a" />
 
 ---
 
