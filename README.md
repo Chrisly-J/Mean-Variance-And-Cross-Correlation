@@ -48,7 +48,7 @@ clc;
 clear;
 
 function X = f(x)
-    X = 4 * x .* (3 + x).^2;
+    X = 4 * x .* (4 + x).^2;
 end
 
 a = 0;
@@ -57,7 +57,7 @@ b = 1;
 EX = intg(a, b, f);
 
 function Y = c(y)
-    Y = 4 * y .* (3 + y).^2;
+    Y = 4 * y .* (4 + y).^2;
 end
 
 EY = intg(a, b, c);
@@ -65,13 +65,13 @@ EY = intg(a, b, c);
 mprintf("i)   Mean of X = %.2f\n     Mean of Y = %.2f\n", EX, EY);
 
 function X = g(x)
-    X = x.^2 .* 4 .* (3 + x).^2;
+    X = x.^2 .* 4.* (4+ x).^2;
 end
 
 EX2 = intg(a, b, g);
 
 function Y = h(y)
-    Y = y.^2 .* 4 .* (3 + y).^2;
+    Y = y.^2 .* 4 .* (4 + y).^2;
 end
 
 EY2 = intg(a, b, h);
@@ -91,19 +91,20 @@ r=corr(x,y,n1);
 
 clf();
 plot2d3(1:length(r), r);
+
 ```
 
 ---
 
 ### Output Graph:
 
-<img width="755" height="732" alt="Screenshot 2025-11-15 132810" src="https://github.com/user-attachments/assets/f06f4aa0-0fb2-4995-9ac0-8f08c5855623" />
+<img width="755" height="717" alt="Screenshot 2025-11-18 231235" src="https://github.com/user-attachments/assets/563608de-0e70-4099-9d4b-37b7be004570" />
 
 ---
 
 ### Output:
 
-<img width="553" height="395" alt="Screenshot 2025-11-15 132819" src="https://github.com/user-attachments/assets/64ab8a4f-06a2-4673-a087-be9d277ea46a" />
+<img width="601" height="412" alt="Screenshot 2025-11-18 231244" src="https://github.com/user-attachments/assets/a7ce5edb-ab3c-400e-a36c-7412736cccf9" />
 
 ---
 
